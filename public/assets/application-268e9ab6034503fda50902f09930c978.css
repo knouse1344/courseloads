@@ -1,0 +1,156 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+/*  blue color: #3EA2D3  */
+/* line 19, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* line 25, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+.padding-bottom {
+  padding-bottom: 40px;
+}
+
+/* line 29, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+#header {
+  background: #3EA2D3;
+  height: 170px;
+  padding-top: 15px;
+}
+/* line 34, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+#header .nav-list {
+  list-style-type: none;
+  padding-top: 50px;
+}
+/* line 38, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+#header .nav-list li {
+  display: inline-block;
+  padding: 5px 15px;
+}
+/* line 42, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+#header .nav-list li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+/* line 51, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+#header .nav-list li a:hover {
+  border-bottom: 1px dotted #fff;
+}
+
+/* line 59, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -340px;
+}
+
+/* line 66, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+footer, #push {
+  /* .push must be the same height as footer */
+  height: 335px;
+}
+
+/* Sticky footer end */
+/* line 71, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+#account {
+  position: absolute;
+  top: 7px;
+  right: 0;
+  font-size: 12px;
+  padding-right: 10px;
+}
+
+/* line 77, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+#account i {
+  margin: 0 5px 2px 0;
+}
+
+/* line 79, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+footer {
+  margin-top: -45px;
+  color: #ffffff;
+  border-top: solid 2px #ffffff;
+  background-color: #222222;
+  background: url("/assets/bg_footer.png");
+}
+
+/* line 85, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+footer #footer_teasers_wrapper {
+  padding: 55px 0;
+}
+
+/* line 87, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+footer #footer_teasers_wrapper .footer_teaser h5 {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+  line-height: 18px;
+  padding: 0 0 16px 0;
+  margin: 10px 0 20px 0;
+  border-bottom: solid 1px #555555;
+}
+
+/* line 95, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+footer #footer_teasers_wrapper .footer_teaser ul {
+  margin-left: -40px;
+  list-style: none;
+}
+
+/* line 98, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+footer #footer_teasers_wrapper .footer_teaser ul a {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #3EA2D3;
+  text-decoration: none;
+}
+
+/* line 104, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+footer #footer_teasers_wrapper .footer_teaser ul a:hover {
+  border-bottom: 1px dashed #3EA2D3;
+  color: #3EA2D3;
+}
+
+/* line 109, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+footer #footer_teasers_wrapper .btn-group > a:hover {
+  /*color: #005580;*/
+  text-decoration: none;
+}
+
+/* line 112, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+footer #copyright {
+  border-top: solid 1px #000000;
+  padding: 12px 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-weight: 300;
+  color: #999999;
+}
+
+/* line 119, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+footer i {
+  font-size: 40px;
+}
+/* line 6, /home/bryan/Documents/courseloads/app/assets/stylesheets/main.css.scss */
+#main-page {
+  width: 100%;
+  height: 1000px;
+  background: #fff;
+}

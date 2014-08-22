@@ -20,3 +20,101 @@ body, html {
 	padding:0;
 	width: 100%;
 }
+
+.padding-bottom {
+	padding-bottom: 40px;
+}
+
+#header {
+	background: #3EA2D3;
+	height: 170px;
+	padding-top: 15px;
+
+	.nav-list {
+		list-style-type: none;
+		padding-top: 50px;
+
+		li {
+			display: inline-block;
+			padding: 5px 15px;
+
+			a {
+				display: inline-block;
+				text-decoration: none;
+				color: #fff;
+				font-size: 16px;
+				font-family: 'Lato', sans-serif;
+				font-weight: 300;
+			}
+
+			a:hover {
+				border-bottom: 1px dotted #fff;
+			}
+		}
+	}
+}
+
+
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -340px; }
+
+footer, #push {
+  /* .push must be the same height as footer */
+  height: 335px; }
+
+/* Sticky footer end */
+#account {
+  position: absolute;
+  top: 7px;
+  right: 0;
+  font-size: 12px;
+  padding-right: 10px; }
+  #account i {
+    margin: 0 5px 2px 0; }
+footer {
+  margin-top: -45px;
+  color: #ffffff;
+  border-top: solid 2px #ffffff;
+  background-color: #222222;
+  background: url('/assets/bg_footer.png'); }
+  footer #footer_teasers_wrapper {
+    padding: 55px 0; }
+    footer #footer_teasers_wrapper .footer_teaser h5 {
+      font-size: 18px;
+      font-weight: 700;
+      font-family: 'Lato', sans-serif;
+      line-height: 18px;
+      padding: 0 0 16px 0;
+      margin: 10px 0 20px 0;
+      border-bottom: solid 1px #555555; }
+    footer #footer_teasers_wrapper .footer_teaser ul {
+      margin-left: -40px;
+      list-style: none; }
+    footer #footer_teasers_wrapper .footer_teaser ul a {
+    	font-family: 'Lato', sans-serif;
+    	font-weight: 300;
+    	color: #3EA2D3;
+    	text-decoration: none;
+    }
+    footer #footer_teasers_wrapper .footer_teaser ul a:hover {
+    	border-bottom: 1px dashed #3EA2D3;
+    	color: #3EA2D3;
+    }
+
+    footer #footer_teasers_wrapper .btn-group > a:hover {
+      /*color: #005580;*/
+      text-decoration: none; }
+  footer #copyright {
+    border-top: solid 1px #000000;
+    padding: 12px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-weight: 300;
+    color: #999999; }
+
+  footer i {
+  	font-size: 40px;
+  }

@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 20140822163924) do
 
   create_table "pickuprequests", force: true do |t|
     t.string   "name"
+    t.integer  "req_id"
     t.text     "address"
     t.decimal  "weight"
     t.datetime "created_at"

@@ -6,5 +6,28 @@
 				<p>Find me in app/views/main/index.html.erb</p>
 			</div>
 		</div>
+		<div class="row">
+			<%= form_for @pickuprequest do |f| %>
+				<div class="col-sm-12 padding-bottom">		
+					<div class="row">
+						<div class="col-sm-4">
+							<%= f.label :name %><br>
+							<%= f.text_field :name %>
+						</div>
+						<div class="col-sm-4">
+							<%= f.label :address %><br>
+							<%= f.text_field :address %>
+						</div>
+						<div class="col-sm-4">
+							<%= f.label :weight %><br>
+							<%= f.number_field :weight %>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<%= f.submit "Send Order" %>
+				</div>
+			<% end %>
+		</div>
 	</div>
 </div>

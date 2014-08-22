@@ -6,10 +6,98 @@
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
+	<div id="header">
+		<div class="container">
+			<div class="row">
+			    <div class="col-sm-4"><a class="brand" href="/"><img src="/assets/logo.png" /></a></div>
+			    <div class="col-sm-8">
+				    <ul class="nav-list pull-right">
+				    	<li class="nav-list-li"  class="active"><a href="http://courseloads.com" >Home</a></li>
+				        <li class="nav-list-li" ><a href="http://courseloads.com/faq">FAQ</a></li>
+				        <li class="nav-list-li" ><a href="http://courseloads.com/about">About Us</a></li>
+				        <li class="nav-list-li" ><a href="http://courseloads.com/contact">Contact Us</a></li>
+				        <li class="nav-list-li"><a href="http://courseloads.com/auth/login">Register / Sign in</a></li>
+		            </ul>
+		        </div>
+	        </div>
+    	</div>
+	</div>
 
 	<%= yield %>
+
+<footer>
+  <section id="footer_teasers_wrapper">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-3 footer_teaser">
+          <h5>About Us</h5>
+          <ul>
+            <li><a href="http://courseloads.com/about">About Course Loads</a></li>
+            <li><a href="http://courseloads.com/jobs">Campus Jobs</a></li>
+            <li><a href="http://courseloads.com/colleges">Colleges Served</a></li>
+            <li><a href="http://collegeblog.courseloads.com">College Life blog</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 footer_teaser">
+          <h5>Contact Us</h5>
+          <ul>
+            <li><a href="http://courseloads.com/contact">Contact Course Loads</a></li>
+            <li><a href="http://courseloads.com/contact/damage_loss">Report Lost or Damaged Items</a></li>
+            <li><a href="http://courseloads.com/contact/partner">Partner with Us</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 footer_teaser">
+          <div class="footer_main">
+            <h5>Socialize with Us</h5>
+            <p class="btn-group">
+              <a class="btn btn-link" target="_blank" href="http://www.facebook.com/CourseLoads">
+                <i class="fa fa-facebook"></i>
+              </a>
+              <a class="btn btn-link" target="_blank" href="http://www.twitter.com/CourseLoads">
+                <i class="fa fa-twitter"></i>
+              </a>
+              <a class="btn btn-link" target="_blank" href="http://www.youtube.com/user/CourseLoads">
+                <i class="fa fa-youtube"></i>
+              </a>
+              <a class="btn btn-link" target="_blank" href="https://plus.google.com/116258071565076311426/p/pub">
+                <i class="fa fa-google-plus"></i>
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 footer_teaser">
+          <h5>Legal Stuff</h5>
+          <ul>
+            <li><a href="http://courseloads.com/legal/terms">Terms of Use</a></li>
+            <!-- <li><a href="http://courseloads.com/legal/privacy">Privacy Policy</a></li> -->
+            <li><a href="http://courseloads.com/legal/copyright">Copyright Policy</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+  <section id="copyright">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6"> Copyright ©2013 all rights reserved </div>
+        <br>
+        <div class="col-lg-6"> <font size="2"><a href="http://www.lanternlegal.com">Copyright and trademark services provided by Lantern Legal</a></font></div>
+        <div class="span6 text-right">Course Loads is a registered trademark of <a href="http://www.dorm.ly">Dormly</a></div>
+        <br>
+      </div>
+    </div>
+  </section>
+</footer>
 
 </body>
 </html>

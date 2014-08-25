@@ -1,0 +1,365 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+/*  blue color: #3EA2D3  */
+/* line 19, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* line 25, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+h1, h2, h3, h4, h5, p {
+  font-family: 'Lato', sans-serif !important;
+}
+
+/* line 29, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+.padding-bottom {
+  padding-bottom: 40px;
+}
+
+/* line 33, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+#header {
+  background: #3EA2D3;
+  height: 170px;
+  padding-top: 15px;
+}
+/* line 38, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+#header .nav-list {
+  list-style-type: none;
+  padding-top: 50px;
+}
+/* line 42, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+#header .nav-list li {
+  display: inline-block;
+  padding: 5px 15px;
+}
+/* line 46, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+#header .nav-list li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+/* line 55, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+#header .nav-list li a:hover {
+  border-bottom: 1px dotted #fff;
+}
+
+/* line 63, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -340px;
+}
+
+/* line 70, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+footer, #push {
+  /* .push must be the same height as footer */
+  height: 335px;
+}
+
+/* Sticky footer end */
+/* line 75, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+#account {
+  position: absolute;
+  top: 7px;
+  right: 0;
+  font-size: 12px;
+  padding-right: 10px;
+}
+
+/* line 81, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+#account i {
+  margin: 0 5px 2px 0;
+}
+
+/* line 83, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+footer {
+  color: #ffffff;
+  border-top: solid 2px #ffffff;
+  background-color: #222222;
+  background: url("/assets/bg_footer.png");
+}
+
+/* line 88, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+footer #footer_teasers_wrapper {
+  padding: 55px 0;
+}
+
+/* line 90, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+footer #footer_teasers_wrapper .footer_teaser h5 {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+  line-height: 18px;
+  padding: 0 0 16px 0;
+  margin: 10px 0 20px 0;
+  border-bottom: solid 1px #555555;
+}
+
+/* line 98, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+footer #footer_teasers_wrapper .footer_teaser ul {
+  margin-left: -40px;
+  list-style: none;
+}
+
+/* line 101, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+footer #footer_teasers_wrapper .footer_teaser ul a {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #3EA2D3;
+  text-decoration: none;
+}
+
+/* line 107, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+footer #footer_teasers_wrapper .footer_teaser ul a:hover {
+  border-bottom: 1px dashed #3EA2D3;
+  color: #3EA2D3;
+}
+
+/* line 112, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+footer #footer_teasers_wrapper .btn-group > a:hover {
+  /*color: #005580;*/
+  text-decoration: none;
+}
+
+/* line 115, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+footer #copyright {
+  border-top: solid 1px #000000;
+  padding: 12px 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-weight: 300;
+  color: #999999;
+}
+
+/* line 122, /home/bryan/Documents/courseloads/app/assets/stylesheets/application.css.scss */
+footer i {
+  font-size: 40px;
+}
+/* line 6, /home/bryan/Documents/courseloads/app/assets/stylesheets/main.css.scss */
+#main-page {
+  width: 100%;
+  background: #fff;
+}
+
+/* line 11, /home/bryan/Documents/courseloads/app/assets/stylesheets/main.css.scss */
+.unit-1 {
+  background-color: #3EA2D3;
+  min-height: 622.5px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 17, /home/bryan/Documents/courseloads/app/assets/stylesheets/main.css.scss */
+.position-block-1 {
+  margin-top: 50px;
+}
+
+/* line 21, /home/bryan/Documents/courseloads/app/assets/stylesheets/main.css.scss */
+.get-started {
+  color: white;
+  margin-top: 60px;
+}
+
+/* line 26, /home/bryan/Documents/courseloads/app/assets/stylesheets/main.css.scss */
+.get-started ul li {
+  list-style: none;
+  margin-left: -40px;
+  line-height: 2em;
+}
+
+/* line 32, /home/bryan/Documents/courseloads/app/assets/stylesheets/main.css.scss */
+.position-feature {
+  margin-top: -161.5px;
+}
+
+/* line 36, /home/bryan/Documents/courseloads/app/assets/stylesheets/main.css.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 40, /home/bryan/Documents/courseloads/app/assets/stylesheets/main.css.scss */
+.border-1 {
+  border: 3px solid #055e90;
+  min-height: 335px;
+  background-color: white;
+}
+
+/* line 46, /home/bryan/Documents/courseloads/app/assets/stylesheets/main.css.scss */
+.img-height {
+  height: 128px;
+}
+
+/* line 50, /home/bryan/Documents/courseloads/app/assets/stylesheets/main.css.scss */
+.height-img-1 {
+  margin-top: 30px;
+  width: 215px;
+}
+
+/* line 55, /home/bryan/Documents/courseloads/app/assets/stylesheets/main.css.scss */
+#plans .plans.row-fluid {
+  padding: 2% 0 4%;
+}
+
+/* line 59, /home/bryan/Documents/courseloads/app/assets/stylesheets/main.css.scss */
+.section_header {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+/* line 64, /home/bryan/Documents/courseloads/app/assets/stylesheets/main.css.scss */
+.section_header h3 {
+  color: #646464;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 27px;
+  border-bottom: 1px solid #b3b3b3;
+  padding-bottom: 0px;
+  display: inline-block;
+  margin: 0;
+}
+
+/* line 75, /home/bryan/Documents/courseloads/app/assets/stylesheets/main.css.scss */
+#school, #dorm, #room {
+  margin-left: 0px;
+  float: none;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+  margin: 10px 0 20px 0;
+}
+
+/* line 84, /home/bryan/Documents/courseloads/app/assets/stylesheets/main.css.scss */
+#plans .plans.row-fluid .plan {
+  padding: 20px 0 15px;
+  text-align: center;
+  position: relative;
+  width: 31.5%;
+  float: left;
+}
+
+/* line 92, /home/bryan/Documents/courseloads/app/assets/stylesheets/main.css.scss */
+#plans .plans.row-fluid .plan h3 {
+  position: relative;
+  line-height: 1;
+  white-space: nowrap;
+  margin-bottom: 0;
+}
+
+/* line 99, /home/bryan/Documents/courseloads/app/assets/stylesheets/main.css.scss */
+#plans .plans.row-fluid .plan .price {
+  margin: 10px auto 20px;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  font-size: 120%;
+  font-weight: bold;
+  color: white;
+  background: #4C5966;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+/* line 113, /home/bryan/Documents/courseloads/app/assets/stylesheets/main.css.scss */
+#plans .plans.row-fluid .plan .price > span {
+  font-size: 70%;
+  font-weight: normal;
+}
+
+/* line 118, /home/bryan/Documents/courseloads/app/assets/stylesheets/main.css.scss */
+#plans .plans.row-fluid .plan ul {
+  margin: 0 0 20px;
+  line-height: 2;
+  list-style: none;
+  text-align: center;
+}
+
+/* line 125, /home/bryan/Documents/courseloads/app/assets/stylesheets/main.css.scss */
+#plans .plans.row-fluid .plan li.show-details {
+  cursor: pointer;
+}
+
+/* line 129, /home/bryan/Documents/courseloads/app/assets/stylesheets/main.css.scss */
+#plans .plans.row-fluid .plan li.show-details .option-details {
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+  background: #f7f7f7;
+  font-size: 90%;
+  font-weight: 400;
+}
+
+/* line 138, /home/bryan/Documents/courseloads/app/assets/stylesheets/main.css.scss */
+#plans .plans.optional {
+  border: 1px solid #c8d7e3;
+  border-right: 0px;
+  border-left: 0px;
+  padding: 0;
+}
+
+/* line 145, /home/bryan/Documents/courseloads/app/assets/stylesheets/main.css.scss */
+#plans .plans.optional .plan > ul {
+  margin: 28px 30px;
+}
+
+/* line 149, /home/bryan/Documents/courseloads/app/assets/stylesheets/main.css.scss */
+#plans .plans.optional .plan {
+  width: 74.46808510638297%;
+}
+
+/* line 153, /home/bryan/Documents/courseloads/app/assets/stylesheets/main.css.scss */
+#plans .plans.optional .plan > * {
+  float: left;
+}
+
+/* line 157, /home/bryan/Documents/courseloads/app/assets/stylesheets/main.css.scss */
+#plans .plans.optional .plan > a {
+  margin: 30px 30px;
+}
+
+/* line 161, /home/bryan/Documents/courseloads/app/assets/stylesheets/main.css.scss */
+#plans .plans.optional .plan > div {
+  margin: 14px 30px;
+}
+/* line 6, /home/bryan/Documents/courseloads/app/assets/stylesheets/pickuprequest.css.scss */
+.pickuprequest-new {
+  padding-top: 40px;
+  min-height: 800px;
+}
+
+/* line 11, /home/bryan/Documents/courseloads/app/assets/stylesheets/pickuprequest.css.scss */
+.pickuprequest-index {
+  padding-top: 40px;
+  min-height: 600px;
+}
+/* line 15, /home/bryan/Documents/courseloads/app/assets/stylesheets/pickuprequest.css.scss */
+.pickuprequest-index table {
+  width: 100%;
+}
+/* line 18, /home/bryan/Documents/courseloads/app/assets/stylesheets/pickuprequest.css.scss */
+.pickuprequest-index table th {
+  font-size: 18px;
+  border: 1px solid #cacaca;
+  padding: 8px 5px;
+}
+/* line 24, /home/bryan/Documents/courseloads/app/assets/stylesheets/pickuprequest.css.scss */
+.pickuprequest-index table td {
+  border: 1px solid #cacaca;
+  padding: 5px 5px;
+}

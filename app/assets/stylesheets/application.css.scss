@@ -21,6 +21,10 @@ body, html {
 	width: 100%;
 }
 
+h1, h2, h3, h4, h5, p {
+  font-family: 'Lato', sans-serif !important;
+}
+
 .padding-bottom {
 	padding-bottom: 40px;
 }
@@ -76,7 +80,6 @@ footer, #push {
   #account i {
     margin: 0 5px 2px 0; }
 footer {
-  margin-top: -45px;
   color: #ffffff;
   border-top: solid 2px #ffffff;
   background-color: #222222;

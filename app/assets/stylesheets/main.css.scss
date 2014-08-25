@@ -5,6 +5,159 @@
 
 #main-page {
 	width: 100%;
-	height: 1000px;
 	background: #fff;
+}
+
+.unit-1 {
+	background-color: #3EA2D3;
+	min-height: 622.5px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.position-block-1 {
+	margin-top: 50px;
+}
+
+.get-started {
+	color: white;
+	margin-top: 60px;
+}
+
+.get-started ul li {
+	list-style: none;
+	margin-left: -40px;
+	line-height: 2em;
+}
+
+.position-feature {
+	margin-top: -161.5px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.border-1 {
+	border: 3px solid #055e90;
+	min-height: 335px;
+	background-color: white;
+}
+
+.img-height {
+	height: 128px;
+}
+
+.height-img-1 {
+	margin-top: 30px;
+	width: 215px;
+}
+
+#plans .plans.row-fluid {
+	padding: 2% 0 4%;
+}
+
+.section_header {
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+.section_header h3 {
+	color: #646464;
+	font-weight: 300;
+	font-style: italic;
+	font-size: 27px;
+	border-bottom: 1px solid #b3b3b3;
+	padding-bottom: 0px;
+	display: inline-block;
+	margin: 0;
+}
+
+#school, #dorm, #room {
+	margin-left: 0px;
+	float: none;
+	width: 100%;
+	display: block;
+	cursor: pointer;
+	margin: 10px 0 20px 0;
+}
+
+#plans .plans.row-fluid .plan {
+	padding: 20px 0 15px;
+	text-align: center;
+	position: relative;
+	width: 31.5%;
+	float: left;
+}
+
+#plans .plans.row-fluid .plan h3 {
+	position: relative;
+	line-height: 1;
+	white-space: nowrap;
+	margin-bottom: 0;
+}
+
+#plans .plans.row-fluid .plan .price {
+	margin: 10px auto 20px;
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	font-size: 120%;
+	font-weight: bold;
+	color: white;
+	background: #4C5966;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+
+#plans .plans.row-fluid .plan .price > span {
+	font-size: 70%;
+	font-weight: normal;
+}
+
+#plans .plans.row-fluid .plan ul {
+	margin: 0 0 20px;
+	line-height: 2;
+	list-style: none;
+	text-align: center;
+}
+
+#plans .plans.row-fluid .plan li.show-details {
+	cursor: pointer;
+}
+
+#plans .plans.row-fluid .plan li.show-details .option-details {
+	padding: 10px;
+	margin: 0;
+	text-align: center;
+	background: #f7f7f7;
+	font-size: 90%;
+	font-weight: 400;
+}
+
+#plans .plans.optional {
+	border: 1px solid #c8d7e3;
+	border-right: 0px;
+	border-left: 0px;
+	padding: 0;
+}
+
+#plans .plans.optional .plan > ul {
+	margin: 28px 30px;
+}
+
+#plans .plans.optional .plan {
+	width: 74.46808510638297%;
+}
+
+#plans .plans.optional .plan > * {
+	float: left;
+}
+
+#plans .plans.optional .plan > a {
+	margin: 30px 30px;
+}
+
+#plans .plans.optional .plan > div {
+	margin: 14px 30px;
 }

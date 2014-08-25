@@ -1,3 +1,201 @@
 <div id="main-page">
+	<div class="clearfix">
+	  <div class="unit-1">
+	    <div class="container">
+	      <div class="row position-block-1">
+	        <div class="col-lg-4">
+	          <img src="/assets/professor_home.png"/>
+	        </div>
+	        <div class="col-lg-8 get-started">
+	          <h3>College life simplified.</h3>
+	          <br>
+	          <ul>
+	            <li>We <strong>pick up</strong> your laundry from your dorm room,</li>
+	            <li><strong>wash</strong> your clothes exactly how you'd like,</li>
+	            <li>and <strong>deliver</strong> them folded neatly back at your door.</li>
+	          </ul>
+	          <br>
+	          <p>All within <strong>24 hours</strong>.</p>
+	          <a href="auth/login" class="btn btn-lg btn-primary">Get Started</a>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<div class="clearfix position-feature">
+	  <div class="container">
+	    <div class="row">
+	      <div class="col-lg-3 text-center">
+	        <div class="border-1">
+	          <br>
+	          <div class="img-height"><img class="height-img-1" src='/assets/tooltip_icon_005.png' /></div>
+	          <h3>Door-to-door Service</h3>
+	          <div>
+	            Get ready for simple.
+	            Your clothes get picked up and returned at
+	            your front door. They come back within
+	            24 hours, folded and smelling fresh!
+	          </div>
+	        </div>
+	      </div>
+	      <div class="col-lg-3 text-center">
+	        <div class="border-1">
+	          <br>
+	          <div class="img-height"><img class="img-height" src='/assets/tooltip_icon_003.png' /></div>
+	          <h3>Roll-over Pounds</h3>
+	          <div>
+	            Never lose the pounds you've paid for.
+	            If you use less than your weekly plan, any unused pounds get
+	            “rolled-over” for future use.
+	            If you go over, no worries either. You'll pay only $.99/lb.
+	          </div>
+	        </div>
+	      </div>
+	      <div class="col-lg-3 text-center">
+	        <div class="border-1">
+	          <br>
+	          <div class="img-height"><img class="img-height" src='/assets/tooltip_icon_004.png' /></div>
+	          <h3>Personalized Options</h3>
+	          <div>
+	            Want your clothes washed cold or delicate?
+	            How about hang-dried? Just say so!
+	            Check off the options you'd like on your
+	            account, and we'll be happy to implement
+	            them.
+	          </div>
+	        </div>
+	      </div>
+	      <div class="col-lg-3 text-center">
+	        <div class="border-1">
+	          <br>
+	          <div class="img-height"><img class="img-height" src='/assets/tooltip_icon_006.png' /></div>
+	          <h3>Flexibility</h3>
+	          <div>
+	            If you're going to be away for a week or two, you can easily have your pounds added to your roll-over balance with one simple click.
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+	    <div class="row">
+	      <div class="col-lg-12 text-center">
+	        <br>
+	        <a class="btn btn-primary" href="/about/services">Learn More About Our Services </a>
+	        <br>
+	      </div>
+	    </div>
+	    <div class="row">
+	      <div class="col-lg-12">
+	        <br>
+	        <div class='section_header'>
+	          <h3>Pricing</h3>
+	        </div>
+	      </div>
+	      <div class="col-lg-12">
+	        <div class="col-lg-3">
+	          <h4 class="pull-right">Select School : </h4>
+	        </div>
+	        <div class="col-lg-9 select-school">
+	                    <select id='school' onchange="location = this.options[this.selectedIndex].value;">
+	                                    <option id="1" value='/?schoolId=1' onclick = "showPreference(this.id)" selected>Select Your School</option>
+	                                                <option id="2" value='/?schoolId=2' onclick = "showPreference(this.id)">Yeshiva University - Wilf</option>
+	                                                <option id="3" value='/?schoolId=3' onclick = "showPreference(this.id)">Yeshiva University - Beren</option>
+	                                                <option id="4" value='/?schoolId=4' onclick = "showPreference(this.id)">Touro - Lander's College for Women</option>
+	                                  </select>
+	          <br>
+	          <div class="label-positon-1">(Plan prices may vary depending on your school selection.)</div>
+	        </div>
+	      </div>
+	    </div>
+	    <div class="row">
+	      <div class="col-lg-12">
+	        <div id='plans'>
+	          <div class="clearfix">
+	            <div class="plans threeCol row-fluid">
+	              <br><br>
+	                                          <div class="plan ">
+	                                <h3>Light</h3>
+	                <small>Course Load</small>
+	                <p class="price" id="price">10<span> lbs/week </span></p>
+	                <ul>
+	                  <li class="show-details">
+	                    <strong>$178.60</strong> for Semester <i class="icon-question-sign"></i>
+	                    <p class="option-details" style="display: none;">
+	                      <strong>10</strong>
+	                      Weeks of service Remaining in this semester.
+	                    </p>
+	                  </li>
+	                  <li class="show-details">
+	                    Only <strong>$0.99</strong> /lbs for overage <i class="icon-question-sign"></i>
+	                    <p class="option-details" style="display: none;">Your leftover pounds are rolled over to the next week</p>
+	                  </li>
+	                </ul>
+	                              </div>
+	                                                        <div class="plan ">
+	                                <h3>Medium</h3>
+	                <small>Course Load</small>
+	                <p class="price" id="price">15<span> lbs/week </span></p>
+	                <ul>
+	                  <li class="show-details">
+	                    <strong>$225.00</strong> for Semester <i class="icon-question-sign"></i>
+	                    <p class="option-details" style="display: none;">
+	                      <strong>10</strong>
+	                      Weeks of service Remaining in this semester.
+	                    </p>
+	                  </li>
+	                  <li class="show-details">
+	                    Only <strong>$0.99</strong> /lbs for overage <i class="icon-question-sign"></i>
+	                    <p class="option-details" style="display: none;">Your leftover pounds are rolled over to the next week</p>
+	                  </li>
+	                </ul>
+	                              </div>
+	                                                        <div class="plan ">
+	                                <h3>Heavy</h3>
+	                <small>Course Load</small>
+	                <p class="price" id="price">20<span> lbs/week </span></p>
+	                <ul>
+	                  <li class="show-details">
+	                    <strong>$267.90</strong> for Semester <i class="icon-question-sign"></i>
+	                    <p class="option-details" style="display: none;">
+	                      <strong>10</strong>
+	                      Weeks of service Remaining in this semester.
+	                    </p>
+	                  </li>
+	                  <li class="show-details">
+	                    Only <strong>$0.99</strong> /lbs for overage <i class="icon-question-sign"></i>
+	                    <p class="option-details" style="display: none;">Your leftover pounds are rolled over to the next week</p>
+	                  </li>
+	                </ul>
+	                              </div>
+	                                                                    </div>
+	          </div>
+	          <br><br><br>
+	          <div class="clearfix">
+	            <div class="plans row-fluid optional">
+	                            <div class="plan col-lg-offset-3">
+	                <br>
+	                <p class="price">0<span> lbs/week </span></p>
+	                <div>
+	                  <h3>
+	                                        Slacker's
+	                                      </h3>
+	                  <small>Course Load</small>
+	                </div>
+	                <ul>
+	                  <li>Pay as you go</li>
+	                  <li>Only <strong>$1.25</strong> /lbs</li>
+	                </ul>
+	                <a href="auth/login" class="btn btn-primary">Start Now</a>
+	              </div>
+	                          </div>
+	          </div>
+	        </div>
+	        <!-- <input type="checkbox" id=""/> -->
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+
 
 </div>

@@ -1,5 +1,9 @@
 Courseloads::Application.routes.draw do
   
+  get "pickuprequests/index"
+  get "pickuprequests/show"
+  get "pickuprequests/new"
+  get "pickuprequests/edit"
   get "main/index"
   
   # The priority is based upon order of creation: first created -> highest priority.
@@ -15,7 +19,7 @@ Courseloads::Application.routes.draw do
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
 
   # Example resource route (maps HTTP verbs to controller actions automatically):
-    resources :pickuprequests
+  resources :pickuprequests
 
   # Example resource route with options:
   #   resources :products do

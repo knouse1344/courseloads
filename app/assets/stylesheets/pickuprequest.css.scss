@@ -1,0 +1,27 @@
+// Place all the styles related to the pickuprequest controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.pickuprequest-new {
+	min-height: 800px;
+}
+
+.pickuprequest-index {
+	min-height: 600px;
+
+	table {
+		width: 100%;
+
+		th {
+			font-size: 18px;
+			border: 1px solid #cacaca;
+			padding: 8px 5px;
+		}
+
+		td {
+			border: 1px solid #cacaca;
+			padding: 5px 5px;
+		}
+	}
+}

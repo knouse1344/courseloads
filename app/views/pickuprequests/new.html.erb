@@ -1,0 +1,32 @@
+<div class="pickuprequest-new">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1>File for a New Pickup Request</h1><br><br>
+			</div>
+		</div>
+		<div class="row">
+			<%= form_for @pickuprequest do |f| %>
+				<div class="col-sm-12 padding-bottom">		
+					<div class="row">
+						<div class="col-sm-4">
+							<%= f.label :name %><br>
+							<%= f.text_field :name %>
+						</div>
+						<div class="col-sm-4">
+							<%= f.label :address %><br>
+							<%= f.text_field :address %>
+						</div>
+						<div class="col-sm-4">
+							<%= f.label :weight %><br>
+							<%= f.number_field :weight, :step => '0.5' %>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<%= f.submit "Send Order" %>
+				</div>
+			<% end %>
+		</div>
+	</div>
+</div>

@@ -20,7 +20,7 @@
 
 				<% Pickuprequest.all.order("updated_at desc").each do |request| %>				
 					<tr>
-						<td><%= request.id %>&ensp;<%= link_to "[ X ]", request, method: :delete,
+						<td><a href="/pickuprequests/<%= request.id %>"><%= request.id %></a>&ensp;&ensp;&ensp;<%= link_to "[ X ]", request, method: :delete,
                                      data: { confirm: "You sure?" }, title: 'Delete!' %></td>
 						<td><%= request.name %></td>
 						<td><a target="_blank" href="https://www.google.com/maps/place/<%= request.address %>"><%= request.address %></a></td>
